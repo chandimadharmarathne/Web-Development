@@ -1,0 +1,130 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    color: rgb(10, 174, 103);
+    margin: 10px;
+    font-weight: bolder;
+    border: 5px;
+}
+
+img{
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 50px;
+    margin-left: 105px;
+    width: 150px;
+    height: auto;
+      
+}
+
+h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(84, 150, 178);
+    margin: 10px;
+    font-weight: bolder;
+    font-style: italic;
+}
+h4{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(38, 39, 64);
+    margin: 10px;
+    font-weight: bolder;
+    font-style: normal;
+}
+.price{
+    position: absolute;
+    bottom: 4px;
+    right: 15px;
+}
+
+table, th{
+    border-color: rgb(0, 0, 0);
+    color: rgb(8, 8, 14); 
+    border: 1px solid black;
+	padding: 8px; 
+}
+td{
+    border: 1px solid black;
+	padding: 8px;
+    border-color: rgb(0, 0, 0);
+    color: rgb(43, 37, 39);  
+}
+table{
+    width: 50%;
+    margin: 25px;
+    padding: 1px;
+    background-color: rgb(211, 226, 221);
+    text-align: center;
+    
+}
+.center_table{
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.textBgColor{
+    background-color: rgb(250, 251, 252);
+    padding: 10px;
+    opacity: 90%;
+}
+.links{
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+a{
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: none;
+    padding: 15px;
+}
+.sendMail{
+    text-align: center;
+}
+.mailText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.bottomDetails{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(250, 247, 247);
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(55, 54, 54);
+    padding: 15px;
+}
